@@ -44,7 +44,7 @@ Connected to wired network
 Assigned as 192.168.0.2 on wlan0
 MAC Address: 00:00:00:00:00:00
 Speed: 0B/s down, 70B/s up
-Available randomness: 256
+Available entropy: 256
 
 Core temperature: 44.2°C
 First core frequency: 2968.909MHz

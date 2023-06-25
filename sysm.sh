@@ -143,7 +143,7 @@ export -f spdtst
 	# Network speed
   if [[ -z $(ip route|grep -v lxdbr0|grep -v gateway-tor) ]]; then echo "Speed: 0B/s down, 0B/s up"; else spdtst=$(spdtst) && echo $spdtst; fi &&\
 	# Entropy
-  echo "Available randomness: $(cat /proc/sys/kernel/random/entropy_avail)"
+  echo "Available entropy: $(cat /proc/sys/kernel/random/entropy_avail)"
   echo &&\
 
 	##############
