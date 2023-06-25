@@ -65,3 +65,7 @@ Processes accessing the network:
 mpd
 ncmpcpp
 ```
+
+Example GUI output:
+
+![Image](/.imgs/main.png) ![Image](/.imgs/options.png)
